@@ -4,6 +4,9 @@
     --stem: #636B46;
     --greenery: #373F27;
     --charcoal: #1F2833;
+    --navy: #313456;
+    --subtle-gold: #B8a26C;
+    --forest: #6E7E75;
 }
 
 * {
@@ -33,11 +36,11 @@
 }
 
 #github-link {
-    color: var(--gold);
+    color: var(--forest);
 }
 
 .card-content:hover {
-    background-color: var(--gold);
+    background-color: var(--subtle-gold);
 }
 
 #links {
@@ -49,12 +52,13 @@
     margin: 5px;
 }
 
-#carousel {
-    background-color: var(--charcoal);
+#carousel1 {
+    background-color: var(--navy);
+    overflow: hidden;
     position:relative;
+    max-width: 600px;
     display: flex;
     justify-content: space-evenly;
-    margin-left: 10%;
 }
 
 .carousel-actions{
@@ -72,4 +76,15 @@
     margin: 100px 200px;
     width: 60%;
     padding: 10px;
+}
+
+.carousel .carousel-item-visible {
+    display: block;
+}
+
+#carousel2,
+#carousel3,
+#carousel4,
+#carousel5 {
+    display: none;
 }
