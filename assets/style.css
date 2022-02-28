@@ -52,15 +52,6 @@
     margin: 5px;
 }
 
-#carousel1 {
-    background-color: var(--navy);
-    overflow: hidden;
-    position:relative;
-    max-width: 600px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .carousel-actions{
     display: flex;
     position: relative;
@@ -78,13 +69,14 @@
     padding: 10px;
 }
 
+.carousel {
+    overflow: hidden;
+}
+
 .carousel .carousel-item-visible {
     display: block;
 }
 
-#carousel2,
-#carousel3,
-#carousel4,
-#carousel5 {
+.carousel .carousel-item-hidden {
     display: none;
 }
