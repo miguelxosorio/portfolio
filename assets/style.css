@@ -1,3 +1,7 @@
 body {
     background-color: #cdaea8;
 }
+
+#profile-picture {
+    margin-left: 20px;
+}
