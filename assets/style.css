@@ -27,6 +27,10 @@
     justify-content: space-evenly;
 }
 
+#github-link {
+    color: var(--gold);
+}
+
 #links {
     margin: .5%;
     color: var(--charcoal);
@@ -39,9 +43,9 @@
 #card1,
 #card2,
 #card3,
-#card4 {
+#card4,
+#card5 {
     background-color: var(--daisy);
-    box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 30%), 0 0 0 1px rgb(10 10 10 / 2%);
 }
 
 #greeting-section {
