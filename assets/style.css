@@ -52,8 +52,12 @@
 .carousel-actions{
     display: flex;
     position: relative;
-    margin: 0 0 10% 0;
     justify-content: center;
+}
+
+#left-button,
+#right-button {
+    margin: 25px;
 }
 
 #greeting-section {
