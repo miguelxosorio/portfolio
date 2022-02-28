@@ -1,0 +1,23 @@
+:root {
+    --gold: #CDA43F;
+    --daisy: #E9E7DA;
+    --stem: #636B46;
+    --greenery: #373F27;
+}
+
+#portfolio-body {
+    background-color:var(--stem);
+    
+}
+
+#profile-picture {
+    margin-left: 20px;
+}
+
+#greeting {
+    font-family: 'Playfair Display', serif;;
+}
+
+#card1 {
+    background-color: #e2bfac;
+}
