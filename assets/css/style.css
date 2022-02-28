@@ -6,7 +6,7 @@
 }
 
 #portfolio-body {
-    background-color:aliceblue;
+    background-color:var(--stem);
     
 }
 
@@ -18,18 +18,16 @@
     font-family: 'Playfair Display', serif;
 }
 
-#card1 {
-    background-color: var(--gold);
+#card-container {
+    display: flex;
+    justify-content: center;
 }
-
-#card2 {
-    background-color: var(--daisy);
+.box {
+    margin: 10px;
 }
-
-#card3 {
-    background-color: var(--greenery);
-}
-
+#card1,
+#card2,
+#card3,
 #card4 {
-    background-color: var(--stem);
+    background-color: var(--gold);
 }
