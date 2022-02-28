@@ -5,20 +5,16 @@
     --greenery: #373F27;
 }
 
-#title-p {
+* {
     font-family: 'Playfair Display', serif;
 }
 
 #portfolio-body {
-    background-color:var(--stem);
+    background-color:var(--gold);
 }
 
 #profile-picture {
     margin-left: 20px;
-}
-
-#greeting {
-    font-family: 'Playfair Display', serif;
 }
 
 #card-container {
@@ -34,7 +30,7 @@
 #card2,
 #card3,
 #card4 {
-    background-color: var(--gold);
+    background-color: var(--daisy);
 }
 
 #greeting-section {
