@@ -5,9 +5,12 @@
     --greenery: #373F27;
 }
 
+#title-p {
+    font-family: 'Playfair Display', serif;
+}
+
 #portfolio-body {
     background-color:var(--stem);
-    
 }
 
 #profile-picture {
