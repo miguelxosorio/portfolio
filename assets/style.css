@@ -8,6 +8,7 @@
 
 * {
     font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
 }
 
 #portfolio-body {
@@ -46,6 +47,13 @@
 #card4,
 #card5 {
     background-color: var(--daisy);
+}
+
+.carousel-actions{
+    display: flex;
+    position: relative;
+    margin: 0 0 10% 0;
+    justify-content: center;
 }
 
 #greeting-section {
