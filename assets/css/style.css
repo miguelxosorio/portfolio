@@ -6,7 +6,7 @@
 }
 
 #portfolio-body {
-    background-color:var(--stem);
+    background-color:aliceblue;
     
 }
 
@@ -15,9 +15,21 @@
 }
 
 #greeting {
-    font-family: 'Playfair Display', serif;;
+    font-family: 'Playfair Display', serif;
 }
 
 #card1 {
-    background-color: #e2bfac;
+    background-color: var(--gold);
+}
+
+#card2 {
+    background-color: var(--daisy);
+}
+
+#card3 {
+    background-color: var(--greenery);
+}
+
+#card4 {
+    background-color: var(--stem);
 }
