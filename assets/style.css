@@ -36,6 +36,10 @@
     color: var(--gold);
 }
 
+.card-content:hover {
+    background-color: var(--gold);
+}
+
 #links {
     margin: .5%;
     color: var(--charcoal);
@@ -45,12 +49,12 @@
     margin: 5px;
 }
 
-#card1,
-#card2,
-#card3,
-#card4,
-#card5 {
-    background-color: var(--daisy);
+#carousel {
+    background-color: var(--charcoal);
+    position:relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
 }
 
 .carousel-actions{
@@ -61,7 +65,7 @@
 
 #left-button,
 #right-button {
-    margin: 25px;
+    margin: 35px;
 }
 
 #greeting-section {
