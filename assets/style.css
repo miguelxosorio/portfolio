@@ -10,7 +10,11 @@
 }
 
 #portfolio-body {
-    background-color:var(--gold);
+    background-color:aliceblue;
+}
+
+#about-me {
+    box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 30%), 0 0 0 1px rgb(10 10 10 / 2%);
 }
 
 #profile-picture {
@@ -31,6 +35,7 @@
 #card3,
 #card4 {
     background-color: var(--daisy);
+    box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 30%), 0 0 0 1px rgb(10 10 10 / 2%);
 }
 
 #greeting-section {
