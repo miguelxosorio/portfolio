@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+#title-p {
+    color: var(--gold);
+}
+
 #portfolio-body {
     background-color:aliceblue;
 }
