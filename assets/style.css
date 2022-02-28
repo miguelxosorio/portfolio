@@ -3,6 +3,7 @@
     --daisy: #E9E7DA;
     --stem: #636B46;
     --greenery: #373F27;
+    --charcoal: #1F2833;
 }
 
 * {
@@ -24,6 +25,11 @@
 #card-container {
     display: flex;
     justify-content: space-evenly;
+}
+
+#links {
+    margin: .5%;
+    color: var(--charcoal);
 }
 
 .box {
