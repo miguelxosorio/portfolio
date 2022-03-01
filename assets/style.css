@@ -89,7 +89,7 @@
 
 .carousel {
     overflow: hidden;
-    max-width: 800px;
+    max-width: 600px;
     position: relative;
     margin-bottom: 7%;
 }
@@ -100,7 +100,7 @@
 }
 
 .carousel .carousel-item img {
-    max-width: 800px;
+    max-width: 600px;
     width: 100%;
     height: auto;
 }
