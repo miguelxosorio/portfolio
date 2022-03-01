@@ -18,8 +18,16 @@
     color: var(--gold);
 }
 
+.subtitle a:hover {
+    background-color: var(--navy);
+}
+
+/* .subtitle a::after {
+    content: "click";
+} */
+
 #portfolio-body {
-    background-color:aliceblue;
+    background-color:var(--daisy);
 }
 
 #about-me {
